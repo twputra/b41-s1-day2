@@ -121,9 +121,10 @@ a {
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.75);
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .mallard .mallard-left {
@@ -174,7 +175,6 @@ a {
 }
 
 .mallard-left .mallard-social {
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     gap: 20px;
